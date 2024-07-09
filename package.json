@@ -1,0 +1,22 @@
+{
+	"name": "alt-price",
+	"version": "0.0.1",
+	"description": "Get cards price from alt.xyz",
+	"main": "index.js",
+	"author": "Richard Armuelles",
+	"license": "Apache-2.0",
+	"private": true,
+	"scripts": {
+		"start": "node index.js",
+		"deploy": "node deploy-commands.js"
+	},
+	"dependencies": {
+		"discord.js": "^14.15.3",
+		"node-fetch": "2",
+		"puppeteer-extra": "^3.3.6",
+		"puppeteer-extra-plugin-stealth": "^2.11.2"
+	},
+	"devDependencies": {
+		"dotenv": "^16.4.5"
+	}
+}
